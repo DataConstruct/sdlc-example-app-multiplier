@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace helloworld.Controllers
+namespace Multiplier.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -5,9 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using DataConstruct.CommonSetup;
 
-namespace helloworld
+namespace Multiplier.API
 {
     public class Program
     {
@@ -18,7 +17,6 @@ namespace helloworld
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .CommonConfigs("helloworld")
                 .UseStartup<Startup>();
     }
 }
