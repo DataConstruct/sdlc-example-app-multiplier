@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiplier", "multiplier\multiplier.csproj", "{20E98334-EADA-4A3E-BE55-08DA8A655186}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplier.API", "Multiplier.API\Multiplier.API.csproj", "{20E98334-EADA-4A3E-BE55-08DA8A655186}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
