@@ -24,7 +24,7 @@ namespace Multiplier.API.Controllers
         
         private int getValueMultiplier()
         {
-            int valueMultiplier = _configuration.GetValue<int>("ValueMultiplier");
+            int valueMultiplier = 3;
             _logger.LogWarning("Value Multiplier Used: {}", valueMultiplier);
             return valueMultiplier;
         }
